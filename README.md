@@ -18,9 +18,9 @@
 “选择一个选项”->“疑难解答”->“高级选项”->“重启设置”界面点击“重启”按钮 ->启动设置界面按“7”禁用驱动程序强制签名
 4）重启后再次运行小胖
 
-2.无法启动此程序，因为计算机中丢失api-ms-win-core-path-l1-1-0.ddl。尝试重新安装该程序。
+2. 无法启动此程序，因为计算机中丢失api-ms-win-core-path-l1-1-0.ddl。尝试重新安装该程序。
 Win7系统可能遇到这个问题，从下面链接下载该文件，然后复制到C:\Windows\System32\，64位系统为：C:\Windows\SysWOW64
 https://cn.dll-files.com/api-ms-win-core-path-l1-1-0.dll.html
 
-3.其它未知错误
+3. 其它未知错误
 可能需要安装C++依赖，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=48145
