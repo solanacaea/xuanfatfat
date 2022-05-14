@@ -10,17 +10,17 @@
     - 同时按键：同时执行脚本里的每个按键，最多可以配置4个同时按键  
 #### 第四步，选择脚本里的按键
 ##### 4.1 键-按
-脚本含义：持续10秒时间，每1秒按1次F1键  
-![image](https://user-images.githubusercontent.com/43092492/168430197-30218495-26d1-4e90-9652-6b1ea72fa039.png)  
+    脚本含义：持续10秒时间，每1秒按1次F1键  
+    ![image](https://user-images.githubusercontent.com/43092492/168430197-30218495-26d1-4e90-9652-6b1ea72fa039.png)  
 ##### 4.2 键-按住
-脚本含义：按住10秒W（向前走10秒钟）   
-![image](https://user-images.githubusercontent.com/43092492/168430344-51181f30-b732-4572-bc9d-53a7e893dd93.png)  
+    脚本含义：按住10秒W（向前走10秒钟）   
+    ![image](https://user-images.githubusercontent.com/43092492/168430344-51181f30-b732-4572-bc9d-53a7e893dd93.png)  
 ##### 4.3 鼠标左键
-脚本含义：1秒内点击1次鼠标左键  
-![image](https://user-images.githubusercontent.com/43092492/168430382-edd2ce9a-d778-4985-8a7c-44891585bc2e.png)  
+    脚本含义：1秒内点击1次鼠标左键  
+    ![image](https://user-images.githubusercontent.com/43092492/168430382-edd2ce9a-d778-4985-8a7c-44891585bc2e.png)  
 ##### 4.4 鼠标右键
-脚本含义：1秒内点击1次鼠标右键  
-![image](https://user-images.githubusercontent.com/43092492/168430412-13def859-783c-4cdf-b481-ce909d9b78fa.png)  
+    脚本含义：1秒内点击1次鼠标右键  
+    ![image](https://user-images.githubusercontent.com/43092492/168430412-13def859-783c-4cdf-b481-ce909d9b78fa.png)  
 ##### 4.5 鼠标移动
 脚本含义：鼠标移动到坐标(50,100)  
 把电脑屏幕想象成一个坐标系，屏幕被x轴/y轴分成4个象限，屏幕中心点的位置就是(0,0)  
