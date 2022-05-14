@@ -61,10 +61,13 @@
 >这个是剑三帮会钓鱼的脚本，根据帮会家园钓鱼buff，调整<等待|14>第四行的等待时间即可
 >如果知道了脚本里的含义就可以在脚本内容文本框内直接修改  
 
+##### 更多脚本内容请查看
+https://github.com/solanacaea/xuanfatfat/tree/main/script
+
 #### 其它说明
 1. 启动、停止热键同单按键
 2. 切换单按键/多按键模式以及多按键脚本时，需要点击各自界面的<完成>按钮完成之后才生效  
 ![image](https://user-images.githubusercontent.com/43092492/168429551-99839f87-b4e1-4f6a-9528-7ecc3bd6a177.png)
-
+https://github.com/solanacaea/xuanfatfat
 #### 常见问题汇总
 https://github.com/solanacaea/xuanfatfat
