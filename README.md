@@ -36,4 +36,4 @@ DD虚拟按键：http://www.ddxoft.com/
 源码地址：https://github.com/ddxoft
 
 ## 欢迎大家提改进建议
-联系方式：剑网3缘起大区-<梦回长安>服务器-<超级厉害的>帮会-<落楹>
+联系方式：jx3_xiaopang@126.com
