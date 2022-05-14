@@ -68,6 +68,6 @@ https://github.com/solanacaea/xuanfatfat/tree/main/script
 1. 启动、停止热键同单按键
 2. 切换单按键/多按键模式以及多按键脚本时，需要点击各自界面的<完成>按钮完成之后才生效  
 ![image](https://user-images.githubusercontent.com/43092492/168429551-99839f87-b4e1-4f6a-9528-7ecc3bd6a177.png)
-https://github.com/solanacaea/xuanfatfat
+
 #### 常见问题汇总
 https://github.com/solanacaea/xuanfatfat
