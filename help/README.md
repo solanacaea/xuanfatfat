@@ -2,6 +2,8 @@
     略......
 ## 多按键
 
+![image](https://user-images.githubusercontent.com/43092492/168429772-e8c9f310-4911-466e-89e0-37ce889703d9.png)
+
 
 #### 说明
 1. 启动、停止热键同单按键
