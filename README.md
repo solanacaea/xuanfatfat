@@ -31,6 +31,13 @@ https://cn.dll-files.com/api-ms-win-core-path-l1-1-0.dll.html
 ### 3. 其它未知错误
 可能需要安装C++依赖，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=48145
 
+## 下载方式
+1. 找到<Code>下拉框
+	![image](https://user-images.githubusercontent.com/43092492/168454120-27ac8aef-6de6-442a-9ebc-076c81afc9e8.png)
+2. 选<Download ZIP>
+![image](https://user-images.githubusercontent.com/43092492/168454042-24cd9af2-0926-408a-966e-24eca32326b3.png)
+
+
 ## 特别感谢
 DD虚拟按键：http://www.ddxoft.com/  
 源码地址：https://github.com/ddxoft
