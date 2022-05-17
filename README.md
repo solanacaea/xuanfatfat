@@ -25,7 +25,9 @@
 4) 重启后再次运行小胖  
 5) 特别提示：小胖驱动程序没有经过微软签名认证，所以才考虑关闭驱动程序签名，关闭该功能，对系统是有一定危险的哦。
 6) 如果过几天再次出现该错误，是系统自动恢复签名认证。需要永久禁用签名认证的话，参考一下步骤：  
-在开始菜单中输入cmd -> 以管理员身份运行 -> 
+	在开始菜单中输入cmd -> 以管理员身份运行 -> 在窗口输入：
+	bcdedit.exe /set nointegritychecks on
+	回车，若打印操作成功完成，重启即可永久禁用
 ### 2. 无法启动此程序，因为计算机中丢失api-ms-win-core-path-l1-1-0.ddl。
 Win7系统可能遇到这个问题，从下面链接下载该文件，然后复制到C:\Windows\System32\，64位系统为：C:\Windows\SysWOW64
 https://cn.dll-files.com/api-ms-win-core-path-l1-1-0.dll.html
