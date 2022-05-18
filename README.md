@@ -31,18 +31,18 @@
 		进入BIOS中，关闭安全启动。把“secure boot”设为“disable”  
 		老操作系统界面：  
 ![image](https://user-images.githubusercontent.com/43092492/169016541-5846b6d1-9d18-4608-82a2-a679df23563d.png)  
-		新操作系统界面：  
-		BIOS启动设置 -> 启动选项 -> 安全启动模式 关闭  
+			新操作系统界面：  
+			BIOS启动设置 -> 启动选项 -> 安全启动模式 关闭  
 	4) 重启完成后
 		在开始菜单中输入cmd -> 以管理员身份运行 -> 在窗口输入：  
 		bcdedit.exe /set nointegritychecks on  
 ##### 特别提示
-关闭该功能，对系统是有一定危险的哦
+	关闭该功能，对系统是有一定危险的哦
 ### 2. 无法启动此程序，因为计算机中丢失api-ms-win-core-path-l1-1-0.ddl。
-Win7系统可能遇到这个问题，从下面链接下载该文件，然后复制到C:\Windows\System32\，64位系统为：C:\Windows\SysWOW64
-https://cn.dll-files.com/api-ms-win-core-path-l1-1-0.dll.html
+	Win7系统可能遇到这个问题，从下面链接下载该文件，然后复制到C:\Windows\System32\，64位系统为：C:\Windows\SysWOW64  
+	https://cn.dll-files.com/api-ms-win-core-path-l1-1-0.dll.html
 ### 3. 其它未知错误
-可能需要安装C++依赖，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=48145
+	可能需要安装C++依赖，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=48145
 ### 更新日志
 #### --------------v0.2 更新-----------------  
 1. 支持大写字母按键  
