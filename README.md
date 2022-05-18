@@ -1,6 +1,9 @@
 ## 小胖按键
 >永久免费，目前已支持多按键脚本  
 >小胖从驱动层模拟按键，理论上任何游戏都可以使用  
+### 界面
+<img src="https://user-images.githubusercontent.com/43092492/169019857-92c1698f-787f-4806-bc9f-f8594683556c.png" width="250px">  <img src="https://user-images.githubusercontent.com/43092492/169019964-0239b51e-ed0b-493e-a565-a8d5cafaf12a.png" width="250px">  <img src="https://user-images.githubusercontent.com/43092492/169020019-8c4f8e05-22f6-4781-9037-20d2f0c32b73.png" width="250px">
+
 ## 常见问题
 ### 1. 驱动启动错误  
 	小胖驱动程序没有经过微软签名认证，所以操作系统禁用了小胖签名导致无法启动驱动程序。 
