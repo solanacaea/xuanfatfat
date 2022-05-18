@@ -30,13 +30,12 @@
 		“选择一个选项”->“疑难解答”->“高级选项”->UEFI固件设置  
 		进入BIOS中，关闭安全启动。把“secure boot”设为“disable”  
 		老操作系统界面：  
-		![image](https://user-images.githubusercontent.com/43092492/169016541-5846b6d1-9d18-4608-82a2-a679df23563d.png)  
+![image](https://user-images.githubusercontent.com/43092492/169016541-5846b6d1-9d18-4608-82a2-a679df23563d.png)  
 		新操作系统界面：  
 		BIOS启动设置 -> 启动选项 -> 安全启动模式 关闭  
 	4) 重启完成后
 		在开始菜单中输入cmd -> 以管理员身份运行 -> 在窗口输入：  
 		bcdedit.exe /set nointegritychecks on  
-##### 永久禁用强制签名
 ##### 特别提示
 关闭该功能，对系统是有一定危险的哦
 ### 2. 无法启动此程序，因为计算机中丢失api-ms-win-core-path-l1-1-0.ddl。
