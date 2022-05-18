@@ -42,7 +42,7 @@
 		“选择一个选项”->“疑难解答”->“高级选项”->UEFI固件设置
 		进入BIOS中，关闭安全启动。把“secure boot”设为“disable”
 		老操作系统界面：
-		![image](https://user-images.githubusercontent.com/43092492/169016541-5846b6d1-9d18-4608-82a2-a679df23563d.png)
+![image](https://user-images.githubusercontent.com/43092492/169016541-5846b6d1-9d18-4608-82a2-a679df23563d.png)
 		新操作系统界面：
 		BIOS启动设置 -> 启动选项 -> 安全启动模式 关闭
 	4) 重启完成后
