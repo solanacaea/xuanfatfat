@@ -22,10 +22,11 @@ from ctypes import *
 from single import SinglePanel
 from multiple_simple import MultiplePanel
 from help import HelpPanel
-from gitlab_grab import get_latest_footer, default_version
+from info import default_title as ad_title, default_line1 as line1, \
+    default_line2 as line2, default_version as curr_version
 from tuopan import SysTrayIcon
 
-pang_title = f'小胖按键 {default_version}'
+pang_title = f'小胖按键 {curr_version}'
 
 window = tk.Tk()
 window.resizable(width=False, height=False)
@@ -48,7 +49,7 @@ def resource_path(relative_path, perm_temp=False):
 def _load_resource():
     start_filename = resource_path(os.path.join("data", "vuvj7-xivte.wav"))
     end_filename = resource_path(os.path.join("data", "8e6go-2nedg.wav"))
-    dd_filename = resource_path(os.path.join("data", "DD94687.64.dll"))
+    dd_filename = resource_path(os.path.join("data", "dd202x.8.x64.dll"))
     icon_filename = resource_path(os.path.join("data", "fat2.ico"))
 
     pygame.mixer.init()
@@ -83,12 +84,11 @@ def _check_ddl(dd_dll):
     if st == 1:
         print("OK")
     else:
-        print("驱动加载失败")
+        print("驱动加载失败, 请查看README文档中解决办法。")
         sys.exit(101)
 
 
 def _load_foot(history_path, _user_data):
-    ad_title, line1, line2, curr_version = get_latest_footer(history_path, _user_data)
     ready_warn = tk.Label(window, text=ad_title)
     ready_warn.place(x=8, y=170)
     ready_warn = tk.Label(window, text=line1, fg='blue')
